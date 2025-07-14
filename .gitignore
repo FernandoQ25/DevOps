@@ -1,0 +1,21 @@
+# Exclude Python cache directories
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude Ruff cache directory
+.ruff_cache/
+
+# Exclude virtual environment directories
+venv/
+env/
+
+# Exclude temporary files
+*.tmp
+*.log
+*.swp
+*.bak
+
+# Exclude system files
+.DS_Store
+Thumbs.db
